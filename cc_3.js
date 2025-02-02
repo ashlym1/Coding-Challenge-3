@@ -1,4 +1,4 @@
-console.log(" JavaScript file is loaded and running!");
+
 // Task 1: Product Price Management 
 let prices = [ 12.99, 5.99, 14.99, 10.49, 5.99]// Array Prices 
 prices.push(9.99); // Add new price to the end of array
@@ -19,7 +19,7 @@ role:"Creative Director",
 performanceScore: 80,
 isActive:true
 } ; // Obeject employye
-employee.performancescore=95; //Updating the Performance Score 
+employee.performanceScore=95; //Updating the Performance Score 
 employee.promotionEligible=true // 
 console.log("Update employee Details:",employee);// display the updated employee object
 
@@ -42,4 +42,4 @@ calculateTotalValue: function(){
     return this.stockCount*this.price;} 
 };//Calculating the total value 
 console.log("Inventory Details:",inventory);
-console.log("Total Inventory Value",inventory.calculateTotalValue());// display the inventory details 
+console.log("Total Inventory Value : ",inventory.calculateTotalValue());// display the inventory details 
