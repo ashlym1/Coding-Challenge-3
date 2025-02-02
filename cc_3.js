@@ -1,3 +1,4 @@
+console.log(" JavaScript file is loaded and running!");
 // Task 1: Product Price Management 
 let prices = [ 12.99, 5.99, 14.99, 10.49, 5.99]// Array Prices 
 prices.push(9.99); // Add new price to the end of array
