@@ -11,4 +11,16 @@ let totalOrders = orders.reduce((total,order) => total + order, 0);// Calculatin
 console.log("Updated Orders: " ,orders);// Display the updates array of ordes
 console.log("Total number of orders:",totalOrders); //Display the toal of all orders
 
-//Task 3 : 
+//Task 3 : Employee Performance Tracking 
+let employee = {
+name:"Yazmin Hues",
+role:"Creative Director"
+performanceScore: 80,
+isActive:true
+} ; // Obeject employye
+employee.performancescore=95; //Updating the Performance Score 
+employee.promotionEliagible=true // 
+console.log("Update employee Details:",employee);// display the updated employee object
+
+
+    
