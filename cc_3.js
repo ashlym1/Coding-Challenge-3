@@ -14,7 +14,7 @@ console.log("Total number of orders:",totalOrders); //Display the toal of all or
 //Task 3 : Employee Performance Tracking 
 let employee = {
 name:"Yazmin Hues",
-role:"Creative Director"
+role:"Creative Director",
 performanceScore: 80,
 isActive:true
 } ; // Obeject employye
