@@ -24,6 +24,21 @@ console.log("Update employee Details:",employee);// display the updated employee
 
 //Task 4: Customer FeedBack Records
 let feedback =[ 
-    {customerName:"Lili Joes", feedbackText:"The Matcha is amazing quality and makes great Matcha Lattes, would definetly but again!"}
-]
-    
+    {customerName:"Lili", feedbackText:"The Matcha is amazing quality and makes great Matcha Lattes, would definetly buy again!", rating: 10},
+    {customerName:"Jaded", feedbackText:" The green tea and strawberry wafer cookies were delicious! Great with cofee/tea, sadly they got rid of the strawberry wafer cookies, please bring them back", rating:8},
+    {customerName:"Hera",feedbackText:"All the products are great, but they got rid of the strawberry cookies for strawberry matcha and it's not what i expected, disappointed",rating:6},
+]; // Adding Feed Back Array list
+feedback.push({ customerName: "Miffy",feedbackText:"The matcha spread is so good, goes well with everything, it's my favorite !", rating: 7});
+// Add  new customer feedback to the array list to the end of the array list
+console.log("Updated feedbacks:feedback",feedback); // Display the  updated array feedbacks 
+
+// Task 5: Inventory Management System
+let inventory= {
+    itemName:"Ceremonial Matcha Poweder",
+    stockCount:100,// Adjust the stock count 
+    price:10.49,
+calculateTotalValue: function(){
+    return this.stockCount*this.price;} 
+};//Calculating the total value 
+console.log("Inventory Details:",inventory);
+console.log("Total Inventory Value",inventory.calculateTotalValue());;// display the inventory details 
