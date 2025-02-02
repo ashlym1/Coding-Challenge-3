@@ -22,5 +22,8 @@ employee.performancescore=95; //Updating the Performance Score
 employee.promotionEliagible=true // 
 console.log("Update employee Details:",employee);// display the updated employee object
 
-
+//Task 4: Customer FeedBack Records
+let feedback =[ 
+    {customerName:"Lili Joes", feedbackText:"The Matcha is amazing quality and makes great Matcha Lattes, would definetly but again!"}
+]
     
